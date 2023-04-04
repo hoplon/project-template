@@ -1,0 +1,8 @@
+;; shadow-cljs configuration
+{:source-paths ["src"]
+ :dependencies [[hoplon "7.3.0-SNAPSHOT"]]
+ :dev-http {8000 "public"}
+ :builds {:app {:target :browser
+                :modules {:main {:init-fn {{main/ns}}.main/init}}
+                :devtools {:before-load {{main/ns}}.main/stop
+                           :after-load {{main/ns}}.main/start}}}}

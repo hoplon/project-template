@@ -1,0 +1,7 @@
+{:description "A Hoplon project designed to...well, that part is up to you."
+ ;; this does not transform the data but does print a message:
+ :data-fn hoplon.hoplon/data-fn
+ ;; this does not transform the EDN but does print a message:
+ :template-fn hoplon.hoplon/template-fn
+ :transform [["src" "src/{{main/file}}" {"main.cljs.template" "main.cljs"
+                                         "view.cljs.template" "view.cljs"}]]}
