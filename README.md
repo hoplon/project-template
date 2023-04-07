@@ -8,7 +8,7 @@ This is a template project for use with [deps-new](https://github.com/seancorfie
 It will produce a new library project when run:
 
 ```bash
-clojure -Sdeps '{:deps {io.github.hoplon/project-template {:git/tag "v0.1.0" :git/sha "4abe28a"}}}' -Tnew create :template hoplon/hoplon :name your/app-name
+clojure -Sdeps '{:deps {io.github.hoplon/project-template {:git/tag "v0.2.0" :git/sha "5a10650"}}}' -Tnew create :template hoplon/hoplon :name your/app-name
 ```
 
 Assuming you have installed `deps-new` as your `new` "tool" via:
