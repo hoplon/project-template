@@ -14,7 +14,7 @@ clojure -Sdeps '{:deps {io.github.hoplon/project-template {:git/tag "v0.3.1" :gi
 Assuming you have installed `deps-new` as your `new` "tool" via:
 
 ```bash
-clojure -Ttools install io.github.seancorfield/deps-new '{:git/tag "v0.5.2"}' :as new
+clojure -Ttools install-latest :lib io.github.seancorfield/deps-new :as new
 ```
 
 Run this template project's tests (by default, this just validates your template's `template.edn`
