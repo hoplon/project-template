@@ -1,7 +1,7 @@
 (ns {{main/ns}}.main
   (:require
     [{{main/ns}}.view :as view]
-    [hoplon.goog]))
+    [hoplon.dom]))
 
 (defn mount-components []
   (.replaceChildren (.getElementById js/document "app") (view/hello)))
